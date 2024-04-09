@@ -1,9 +1,9 @@
 import 'package:mysql1/mysql1.dart';
 
 var settings = ConnectionSettings(
-  host: '192.168.246.180',
+  host: 'sql6.freesqldatabase.com',
   port: 3306,
-  user: 'root',
-  password: 'root@123',
-  db: 'order',
+  user: 'sql6697728',
+  password: 'ZsX8WD2Rst',
+  db: 'sql6697728',
 );

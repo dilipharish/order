@@ -324,7 +324,7 @@ class Variant {
 Future<List<Product>> fetchProducts(MySqlConnection conn) async {
   var products = <Product>[];
 
-  var results = await conn.query('SELECT * FROM Product');
+  var results = await conn.query('SELECT * FROM product');
 
   for (var row in results) {
     var product = Product(pid: row[0], name: row[1]);
